@@ -1,0 +1,7 @@
+header {
+}
+
+header .search {
+    display: flex;
+    align-items: center;
+}

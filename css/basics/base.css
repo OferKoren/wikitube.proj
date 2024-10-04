@@ -3,8 +3,20 @@
 *::before {
     box-sizing: border-box;
 }
-
+html {
+    margin: 0;
+}
+body {
+    min-height: 100vh;
+    background-color: var(--clr-body);
+}
 img {
     display: block;
     width: 100%;
+}
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
 }
